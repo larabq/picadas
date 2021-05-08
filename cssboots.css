@@ -1,0 +1,520 @@
+/*RESETEOS----------------------------------------------*/
+* {
+    Margin:0;
+    padding:0;
+
+ 
+}
+
+/*ESTILOS DE BODY------------------------------------------------------------*/
+body {
+        color: lightslategrey;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 120%;
+        font-family: 'Raleway', Arial, sans-serif;
+        background-color: black;
+    }
+
+/*ESTILOS DE BARRA DE NAVEGACION----------------------------------------------*/
+
+nav {
+    background-image: url(https://image.freepik.com/foto-gratis/sobrecarga-fondo-tablas-madera-espacio-copia_24972-537.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;  
+    grid-area: nav
+}
+
+/*LOGO PICADAS SP----------------------------------------------*/
+.logo img {
+    width: 100%;
+    max-width: 150px;
+}
+
+.lista {
+    padding-left: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    list-style: none;
+    display: flex;
+    flex: auto;
+
+}
+
+    li {
+    flex: auto;
+    border: hidden;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+
+}
+    
+    ul ol {
+        list-style: none;
+    }
+
+    a {
+    text-decoration: none;
+    color: white; 
+    text-shadow: 1px 1px 2px black; 
+    display: block;
+    font-size: 15px;
+}
+
+    li a:hover {
+        background-color: wheat
+    }
+
+    ul ul{
+    position: absolute;
+    display: none;
+ 
+}
+
+/*ESTILOS DEL HEADER/
+BANNER-------------------------------------------
+
+/*BANNER*/
+header {
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    color: white;
+    grid-area: header
+}
+
+
+.logo-pica {
+    display: block;
+    margin-right: 65px;
+    padding-bottom: 100px;
+    transition: all 2s;
+        
+}
+
+.logo-pica:hover {
+    transform: scale(1.1);
+}
+
+/*IMG LOGO*/
+.logo-pica img {
+    width: 150%;
+    max-width: 700px;
+    float: right;
+    padding-top: 20px;
+    padding-bottom: 80px;
+    margin: 20px;
+}
+
+.logo-picapica img {
+    width: 100%;
+    max-width: 450px;
+    float: right;
+    padding-top: 20px;
+    padding-bottom: 80px;
+    margin: 20px;
+}
+
+.container-fluid {
+    margin-top: 50px;
+}
+
+/*CAROUSEL*/
+.imgcaro {
+    width: 100%;
+    height: 800px;
+}
+
+.col {
+    background-color: black;
+}
+/*TEXTO BANNER*/
+
+.display {
+    text-align: center;
+    padding: 20px;
+}
+
+/*TITULO BANNER*/
+.display h1{
+    font-size: 2.8rem;
+    font-weight: 600;
+    text-shadow: 2px 2px 4px lightgrey;
+    text-transform: uppercase;
+    text-align: center;
+    transition: all 1s;
+}
+
+.display h1:hover{
+    transform:scale(0,5. 1);
+    color: brown;
+}
+
+/*BAJADA BANNER*/
+.display p{
+    font-size: 1.0rem;
+    text-shadow: 1px 1px 2px lightgrey;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+.color {
+    color: white;
+
+}
+
+.elemimg1 {
+    background-image: url("../Media/family.png");
+    background-size: cover;
+    background-position: center;
+    width: 130px;
+    height: 100px;
+
+}
+
+.elemimg2 {
+    background-image: url("../Media/jamon.png");
+    background-size: cover;
+    background-position: center;
+    width: 130px;
+    height: 100px;
+
+}
+
+/*ESTILOS DE GALERIA------------------------------------------*/
+.galeria {
+    background-image: linear-gradient(to bottom,black, brown);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    grid-area: galeria
+}
+
+
+.titulogale p {
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.fotos {
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    flex-basis: 30px;
+    justify-content: center;
+}
+
+
+.foto {
+    width: 100%;
+    height: 100%;
+    max-width: 300px;
+    max-height: 500px;
+    min-width: 300px;
+    min-height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 28px;
+    margin-left: 3px;
+}
+
+.hover:hover {
+    transform: scale(1.2, 1.2);
+}
+
+.fotoev {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.accordion-button {
+    background-color: white;
+}
+.accordion-item {
+    background-image: url(https://image.freepik.com/foto-gratis/sobrecarga-fondo-tablas-madera-espacio-copia_24972-537.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.accordion-body {
+    font-size: 15px;
+    font-style: normal;
+    color: black;
+    font-weight: normal;
+}
+
+/*PROMOS*/
+
+h3 {
+    font-size: 2rem;
+    font-weight: 800;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px lightsalmon;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.title p {
+    margin-top: 20px;;
+}
+
+.display h3 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-shadow: 2px 2px 4px lightgrey;
+    text-transform: uppercase;
+    text-align: center;
+    transition: all 1s;
+}
+
+
+.display h3:hover{
+    transform:scale(0,5. 1);
+    color: brown;
+}
+
+table {
+        color: white;
+        border: 2px solid;
+        font-size: 20px;
+        font-weight: bold;
+        background-position-y: center;
+       }
+
+.colortitulo {
+    color: white;
+}
+
+.movertabla {
+    padding-left: 22%;
+    margin-bottom: 80px;
+}
+
+
+.section2 {
+    background-image: linear-gradient(to bottom,black, brown);
+}
+
+/*ESTILOS DE ELEMENTOS*/
+section {
+    background-color: black;
+    padding-top: 30px;
+}
+
+.sectionpromo{
+    background-image: linear-gradient(to bottom,black, brown);
+ }
+
+.sectionpromo p{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    text-align: center
+
+}
+
+.elementospromo {
+    margin-left: 150px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.ver1 {
+    background-image: url("../Media/family.png");
+    background-size: cover;
+    background-position: center;
+    width: 130px;
+    height: 100px;
+
+}
+
+.ver2 {
+    background-image: url("../Media/jamon.png");
+    background-size: cover;
+    background-position: center;
+    width: 130px;
+    height: 100px;
+
+}
+
+.ver3 {
+    background-image: url("../Media/family.png");
+    background-size: cover;
+    background-position: center;
+    width: 130px;
+    height: 100px;
+
+}
+
+.ver4 {
+    background-image: url("../Media/jamon.png");
+    background-size: cover;
+    background-position: center;
+    width: 130px;
+    height: 100px;
+
+}
+.ver5 {
+    background-image: url("../Media/family.png");
+    background-size: cover;
+    background-position: center;
+    width: 130px;
+    height: 100px;
+
+}
+
+
+.elementos {
+
+    position: relative;
+    margin-top: 5%;
+    margin-left: 60%;
+    transform: translate(-50%, -50%);
+
+}
+
+.elemimg1 {
+    background-image: url("../Media/family.png");
+    background-size: cover;
+    background-position: center;
+    width: 130px;
+    height: 100px;
+
+}
+
+.elemimg2 {
+    background-image: url("../Media/jamon.png");
+    background-size: cover;
+    background-position: center;
+    width: 130px;
+    height: 100px;
+
+}
+
+.elemimg3 {
+    background-image: url("../Media/seguridad.png");
+    width: 130px;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.elementos article {
+    background-color: #FFFF; 
+    width: 10%;
+    min-width: 80px;
+    height: 140px;
+    overflow: hidden;
+    display: inline-block;
+    margin: 0px;
+    border-right:solid 2px black;
+    border-bottom:solid 2px black;
+    border-left:solid 2px black;
+    border-top: solid 2px black;
+}
+
+/*ESTILOS DE CONTACTO*/
+
+.formulario {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+.contacto {
+    background-position: bottom center;
+}
+
+.texto {
+    font-size: 15px;
+    text-align: center;
+    color: black;
+}
+
+.texto1 {
+    font-size: 1.8rem;
+    text-shadow: 1px 1px 2px lightgrey;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+.logo-moto {
+    display: block;
+    width: 200px;
+    height: 150px;
+    margin-right: 65px;
+    padding-bottom: 100px;
+    transition: all 2s;
+}
+
+/*FOOTERCONTACTO*/
+.mapa {
+    width: 150%;
+    max-width: 650px;
+    float: right;
+    padding-top: 20px;
+    padding-bottom: 80px;
+    margin: 20px;
+
+}
+
+
+.displaycontact h3{
+    font-size: 1.5 rem;
+    text-shadow: 1px 1px 2px lightgrey;
+    padding-top: 200px;
+    color: white; 
+    text-align: center;
+
+}
+
+.displaycontact p{
+    font-size: 1rem;
+    text-shadow: 1px 1px 2px lightgrey;
+    padding-top: 10px;
+    color: white; 
+    text-align: center;
+}
+
+/*CONTACTO*/
+
+.bl {
+    color: black
+}
+
+
+.wh {
+    color: white
+}
+
+
+.txt4 {
+    text-align: left;
+    font-size: 300%;
+    color: white;
+}
+
+
+form {
+    width: 500px;
+}
+

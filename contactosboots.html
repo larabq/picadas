@@ -1,0 +1,114 @@
+<!DOCtype html>
+<html>
+<head>
+    <meta chartset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0"> 
+    <title>Picadas Gourmet</title>
+<!--Linkeo a estilos css--------------------------------------------------------->
+
+    <link rel="stylesheet" href="cssboots.css">
+<!--TIPOGRAFIAS------------------------------------------------------------------>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;1,300;1,500&display=swap" rel="stylesheet">  
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body> 
+
+<!--BARRA DE NAVEGACION CON LINKS------------------------------------------------>
+<nav class="nav" id="nav">
+    <div class="logo"><a href="indexboo.html"><img class="logo" src=../paginafinal/Media/LOGO1.png alt="logosp"></a></div>
+        <ul class="lista">
+            <li><a href="indexboo.html">Inicio</a></li>
+            <li><a href="picadasboots.html">Picadas</a></li>
+            <li><a href="promosboots.html">Promos</a></li>
+            <li><a href="sobrenosotrosboots.html">Sobre nosotros</a></li>
+            <li><a href="contactosboots.html">Contacto</a></li>
+        </ul>
+</nav>
+
+<!--HEADER CON INFO------------------------------------------------>
+<header class="header" id="header">
+    <div class="logo-moto">
+        <img src="../paginafinal/Media/contactomoto1.png" alt="logomoto">
+    </div>
+    <div class="display">
+        <h1>Picadas Gourmet SP<br>Contacto</br></h1>
+        <p>Podes retirar tu picada en el local personalemente o sino tenemos medios de entrega<br> totalmente gratuitos hacia todas las localidades dentro de la provincia
+        de Buenos Aires y un adicional para aquellas en Capital Federal <br> Los retiros o entregas se realizan
+        de Lunes a Sabados y los pedidos se toman hasta 2 dias antes!</p>
+    </div>
+</header>
+
+<!--SECCION 1 formulario------------------------------------------------------------------------------------>
+
+    <section class="wh" id="wh">
+        <div class="texto1">
+            <p>Hacenos tu consulta! <br> Te responderemosmos a <br> la brevedad</p>
+        </div>
+        <div class="formulario">
+            <form action="#" method="get" enctype="multipart/form-data">
+                <fieldset>
+                    <legend>Datos del usuario</legend>     
+                    <div>
+                        <label for="nombre">Nombre</label>
+                        <input type="texto" id="nombre" name="nombre">
+                    </div>
+                    <div>   
+                        <label for="email">Email</label>
+                        <input type="email" name="email" placeholder="nombre@ejemplo.com">
+                    </div>
+                    <div>
+                        <label for="telefono">Teléfono</label>
+                        <input type="tel" name="tel" placeholder="011xxxxxxxx">
+                    </div>
+                    <div>
+                        <label for="mensaje">Tipo de mensaje</label>
+                        <select id="mensaje" name="mensaje">
+                        <option value="Consulta">Seleccionar</option>
+                        <option value="Consulta">Consulta</option>
+                        <option value="Consulta">Queja</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="comm" >Mensaje</label>
+                        <textarea id="comm" name="comm"></textarea>
+                    </div>
+                </fieldset>
+            </form>
+
+            <form>
+                <fieldset>
+                    <div>¿Quiere que le envíemos la información por: email/teléfono/ambos?
+                        <input type="checkbox" name="acepta" value="1">Email
+                        <input type="checkbox" name="acepta" value="2">Teléfono
+                        <input type="checkbox" name="acepta" value="1">ambos
+
+                        <input class="bl" type="submit" value="Enviar info">
+                        <input class="bl" type="reset" value="Resetear">
+  
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </section>
+                
+
+<!--SECCION 3 mapa------------------------------------------------------------------------------------>
+    <section class= "contacto" id="contacto">
+        <div>
+            <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.1922788789484!2d-58.527773685434795!3d-34.599299080460504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb7c7461cce21%3A0x4b1269235a146920!2sEstocolmo%202800%2C%20B1674ALD%20S%C3%A1enz%20Pe%C3%B1a%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1617066632334!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                <div class="displaycontact">
+                    <h3>Podes pasar por nuestro local <br> personalmente. <br><br> Te esperamos!</h3>
+                    <p>Dirección: Estocolmo 2900</p>
+                    <p>Localidad: Saénz Peña, Pcia. De Buenos Aires</p>
+                    <p>Teléfono: 4757-2322</p>
+                </div>
+        </div>
+    </section>
+
+
+
+</body>
+</html>
+
