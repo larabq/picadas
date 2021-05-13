@@ -1,0 +1,82 @@
+/*ESTILOS DE BARRA DE NAVEGACION----------------------------------------------*/
+/*VARIABLES*/
+
+$tamano: 10px;
+
+nav {
+    background-image: url(https://image.freepik.com/foto-gratis/sobrecarga-fondo-tablas-madera-espacio-copia_24972-537.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    grid-area: nav
+}
+
+.nav__fondonegro {
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+/*LOGO PICADAS SP----------------------------------------------*/
+.logo img {
+    width: 100%;
+    max-width: 150px;
+}
+
+.lista {
+    padding-left: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    list-style: none;
+    display: flex;
+    flex: auto;
+    
+}
+    li {
+    flex: auto;
+    border: hidden;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+
+}
+    
+    ul ol {
+        list-style: none;
+    }
+
+    a {
+    text-decoration: none;
+    color: white; 
+    text-shadow: 1px 1px 2px black; 
+    display: block;
+}
+    a {
+        font-size: $tamano*2;
+    }
+
+    li a:hover {
+        background-color: wheat
+    }
+
+    ul ul{
+    position: absolute;
+    display: none;
+ 
+}
+

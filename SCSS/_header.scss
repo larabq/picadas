@@ -1,0 +1,130 @@
+/*ESTILOS DEL HEADER/
+BANNER-------------------------------------------
+/*VARIABLES*/
+$letra: oscuro;
+$letra: mantener;
+
+/*BANNER INDEXNEW*/
+header {
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    color: white;
+    grid-area: header
+}
+
+
+
+
+.logo-pica {
+    display: block;
+    margin-right: 65px;
+    padding-bottom: 100px;
+    transition: all 2s;
+        
+}
+
+.logo-pica:hover {
+    transform: scale(1.1);
+}
+
+/*IMG LOGO*/
+.logo-pica img {
+    width: 150%;
+    max-width: 650px;
+    float: right;
+    padding-top: 20px;
+    padding-bottom: 80px;
+    margin: 20px;
+}
+
+.logo-picapica img {
+    width: 100%;
+    max-width: 450px;
+    float: right;
+    padding-top: 20px;
+    padding-bottom: 80px;
+    margin: 20px;
+}
+
+
+
+/*TEXTO BANNER*/
+
+.display {
+    text-align: center;
+    margin: 20px;
+
+}
+
+/*TITULO BANNER*/
+
+.header__titulo {
+    @if $letra==oscuro {
+        color: black;
+    } @else if $letra==claro {
+        color: white;
+    }
+}
+
+.header__parrafo {
+    @if $letra==cambiar {
+        color: lightcoral;
+    } @else if $letra==mantener {
+        color: rgb(196, 196, 67);
+    }
+}
+
+
+.display h1{
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-shadow: 2px 2px 4px lightgrey;
+    text-transform: uppercase;
+    text-align: center;
+    transition: all 1s;
+}
+
+.display h1:hover{
+
+    color: brown;
+
+}
+
+/*BAJADA BANNER*/
+.display p{
+    font-size: 1rem;
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+
+
+/*ESTILOS DE CONTACTONEW*/
+
+.contacto {
+    background-position: bottom center;
+  
+}
+
+.texto {
+    font-size: 15px;
+    text-align: center;
+    color: black;
+}
+
+.texto1 {
+    font-size: 1.8rem;
+    text-shadow: 1px 1px 2px lightgrey;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.logo-moto {
+    display: block;
+    width: 200px;
+    height: 150px;
+    margin-right: 65px;
+    padding-bottom: 100px;
+    transition: all 2s;
+}

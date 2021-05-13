@@ -1,0 +1,35 @@
+/*RESETEOS----------------------------------------------*/
+* {
+    margin:0;
+    padding:0;
+
+ 
+}
+/*VARIABLES*/
+
+$colores: oscuro;
+
+
+
+/*ESTILOS DE BODY------------------------------------------------------------*/
+body {
+        color: lightslategrey;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 120%;
+        font-family: 'Raleway', Arial, sans-serif;
+        background-color: black;
+    }
+
+.body__fuente {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    @if $colores==oscuro {
+        background-color: black;
+    } @else if $colores==claro {
+        background-color: white;
+    }
+}
+

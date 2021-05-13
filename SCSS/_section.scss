@@ -1,0 +1,75 @@
+/*VARIABLES*/
+$borde: sacar;
+
+/*ESTILOS DE ELEMENTOS*/
+section {
+
+    padding-top: 30px;
+}
+
+.elementos {
+    position: relative;
+    margin-top: 5%;
+    margin-left: 60%;
+    transform: translate(-50%, -50%);
+
+}
+
+
+.elemimg1 {
+    background-image: url("../media/familia.jpg");
+    background-size:cover;
+    background-position: center;
+    width: 120px;
+    height: 75px;
+}
+
+.elemimg2 {
+    background-image: url("../media/jamon.png");
+    background-size: cover;
+    background-position: center;
+    width: 90px;
+    height: 75px;
+    margin-left: 15px;
+
+}
+
+.elemimg3 {
+    background-image: url("../media/seguridad.png");
+    width: 100px;
+    height: 80px;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.texto {
+    color: yellow;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 5px;
+ 
+}
+
+.elementos article {
+
+    width: 25%;
+    min-width: 80px;
+    height: 140px;
+    overflow: hidden;
+    display: inline-block;
+    margin: 0px;
+
+}
+
+
+.elementos article {
+    @if $borde==sacar {
+        border: none;
+    } @else if $borde==dejar {
+        border-right:solid 2px black;
+        border-bottom:solid 2px black;
+        border-left:solid 2px black;
+        border-top: solid 2px black;
+    }
+}

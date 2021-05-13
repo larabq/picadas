@@ -1,0 +1,278 @@
+/*RESETEOS----------------------------------------------*/
+* {
+  margin: 0;
+  padding: 0; }
+
+/*VARIABLES*/
+/*ESTILOS DE BODY------------------------------------------------------------*/
+body {
+  color: lightslategrey;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 120%;
+  font-family: 'Raleway', Arial, sans-serif;
+  background-color: black; }
+
+.body__fuente {
+  font-family: Georgia, 'Times New Roman', Times, serif; }
+
+body {
+  background-color: black; }
+
+/*ESTILOS DE BARRA DE NAVEGACION----------------------------------------------*/
+/*VARIABLES*/
+nav {
+  background-image: url(https://image.freepik.com/foto-gratis/sobrecarga-fondo-tablas-madera-espacio-copia_24972-537.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+  grid-area: nav; }
+
+.nav__fondonegro {
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between; }
+
+/*LOGO PICADAS SP----------------------------------------------*/
+.logo img {
+  width: 100%;
+  max-width: 150px; }
+
+.lista {
+  padding-left: 0%;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  list-style: none;
+  display: flex;
+  flex: auto; }
+
+li {
+  flex: auto;
+  border: hidden;
+  text-align: center;
+  display: inline-block;
+  position: relative; }
+
+ul ol {
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+  display: block; }
+
+a {
+  font-size: 20px; }
+
+li a:hover {
+  background-color: wheat; }
+
+ul ul {
+  position: absolute;
+  display: none; }
+
+/*ESTILOS DEL HEADER/
+BANNER-------------------------------------------
+/*VARIABLES*/
+/*BANNER INDEXNEW*/
+header {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  color: white;
+  grid-area: header; }
+
+.logo-pica {
+  display: block;
+  margin-right: 65px;
+  padding-bottom: 100px;
+  transition: all 2s; }
+
+.logo-pica:hover {
+  transform: scale(1.1); }
+
+/*IMG LOGO*/
+.logo-pica img {
+  width: 150%;
+  max-width: 650px;
+  float: right;
+  padding-top: 20px;
+  padding-bottom: 80px;
+  margin: 20px; }
+
+.logo-picapica img {
+  width: 100%;
+  max-width: 450px;
+  float: right;
+  padding-top: 20px;
+  padding-bottom: 80px;
+  margin: 20px; }
+
+/*TEXTO BANNER*/
+.display {
+  text-align: center;
+  margin: 20px; }
+
+/*TITULO BANNER*/
+.header__parrafo {
+  color: #c4c443; }
+
+.display h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-shadow: 2px 2px 4px lightgrey;
+  text-transform: uppercase;
+  text-align: center;
+  transition: all 1s; }
+
+.display h1:hover {
+  color: brown; }
+
+/*BAJADA BANNER*/
+.display p {
+  font-size: 1rem;
+  padding-top: 25px;
+  padding-bottom: 50px; }
+
+/*ESTILOS DE CONTACTONEW*/
+.contacto {
+  background-position: bottom center; }
+
+.texto {
+  font-size: 15px;
+  text-align: center;
+  color: black; }
+
+.texto1 {
+  font-size: 1.8rem;
+  text-shadow: 1px 1px 2px lightgrey;
+  padding-top: 50px;
+  padding-bottom: 30px; }
+
+.logo-moto {
+  display: block;
+  width: 200px;
+  height: 150px;
+  margin-right: 65px;
+  padding-bottom: 100px;
+  transition: all 2s; }
+
+/*VARIABLES*/
+/*ESTILOS DE ELEMENTOS*/
+section {
+  padding-top: 30px; }
+
+.elementos {
+  position: relative;
+  margin-top: 5%;
+  margin-left: 60%;
+  transform: translate(-50%, -50%); }
+
+.elemimg1 {
+  background-image: url("../media/familia.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 120px;
+  height: 75px; }
+
+.elemimg2 {
+  background-image: url("../media/jamon.png");
+  background-size: cover;
+  background-position: center;
+  width: 90px;
+  height: 75px;
+  margin-left: 15px; }
+
+.elemimg3 {
+  background-image: url("../media/seguridad.png");
+  width: 100px;
+  height: 80px;
+  background-size: cover;
+  background-position: center; }
+
+.texto {
+  color: yellow;
+  font-size: 15px;
+  text-align: center;
+  padding-top: 5px; }
+
+.elementos article {
+  width: 25%;
+  min-width: 80px;
+  height: 140px;
+  overflow: hidden;
+  display: inline-block;
+  margin: 0px; }
+
+.elementos article {
+  border: none; }
+
+/*FOOTER*/
+footer {
+  background-image: url(https://image.freepik.com/foto-gratis/sobrecarga-fondo-tablas-madera-espacio-copia_24972-537.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50px; }
+
+.footer p {
+  font-size: medium;
+  font-style: oblique;
+  text-align: left;
+  padding-bottom: 20px;
+  grid-area: footer; }
+
+.footer__parrafo {
+  font-size: small;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif; }
+
+/*FOOTERCONTACTO*/
+.mapa {
+  width: 150%;
+  max-width: 650px;
+  float: right;
+  padding-top: 20px;
+  padding-bottom: 80px;
+  margin: 20px; }
+
+.displaycontact h3 {
+  font-size: 1.5 rem;
+  text-shadow: 1px 1px 2px lightgrey;
+  padding-top: 200px;
+  color: white;
+  text-align: center; }
+
+.displaycontact p {
+  font-size: 1rem;
+  text-shadow: 1px 1px 2px lightgrey;
+  padding-top: 10px;
+  color: white;
+  text-align: center; }
+
+/*CONTACTO*/
+.bl {
+  color: black; }
+
+.wh {
+  color: white; }
+
+.txt4 {
+  text-align: left;
+  font-size: 300%;
+  color: white; }
+
+form {
+  width: 500px; }

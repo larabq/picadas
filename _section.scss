@@ -1,0 +1,87 @@
+/*ESTILOS DE ELEMENTOS INDEXNEW*/
+section {
+    background-color: black;
+    padding-top: 30px;
+}
+
+.elementos {
+    position: relative;
+    margin-top: 5%;
+    margin-left: 60%;
+    transform: translate(-50%, -50%);
+
+}
+
+
+.elemimg1 {
+    background-image: url("../media/familia.jpg");
+    background-size:cover;
+    background-position: center;
+    width: 120px;
+    height: 75px;
+}
+
+.elemimg2 {
+    background-image: url("../media/jamon.png");
+    background-size: cover;
+    background-position: center;
+    width: 90px;
+    height: 75px;
+    margin-left: 15px;
+
+}
+
+.elemimg3 {
+    background-image: url("../media/seguridad.png");
+    width: 100px;
+    height: 80px;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.texto {
+    font-size: 15px;
+    text-align: center;
+    padding-top: 5px;
+ 
+}
+
+.elementos article {
+    background-color: black;
+    width: 25%;
+    min-width: 80px;
+    height: 140px;
+    overflow: hidden;
+    display: inline-block;
+    margin: 0px;
+    border-right:solid 2px black;
+    border-bottom:solid 2px black;
+    border-left:solid 2px black;
+    border-top: solid 2px black;
+}
+
+/*CONTACTONEW*/
+
+
+.bl {
+    color: black
+}
+
+
+.wh {
+    color: white
+}
+
+
+.txt4 {
+    text-align: left;
+    font-size: 300%;
+    color: white;
+}
+
+
+form {
+    width: 500px;
+}
+
